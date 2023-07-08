@@ -89,6 +89,11 @@ extension LoginView {
             .cornerRadius(16)
             .overlay(RoundedRectangle(cornerRadius: 16).stroke(Color.gray))
             .padding([.horizontal], 24)
+            .onAppear {
+                        if rememberMe {
+                            loginViewModel.email = UserDefaults.standard.string(forKey: "rememberedUser") ?? ""
+                        }
+                    }
     }
     
     @ViewBuilder
@@ -109,6 +114,19 @@ extension LoginView {
         }
         .toggleStyle(SwitchToggleStyle(tint: .blue))
         .padding(.vertical, 5)
+        .onChange(of: rememberMe) { newValue in
+            if !newValue {
+                UserDefaults.standard.removeObject(forKey: "rememberedUser")
+            }
+            else {
+                UserDefaults.standard.set(loginViewModel.email, forKey: "rememberedUser")
+            }
+        }
+        .onAppear {
+            if !rememberMe {
+                UserDefaults.standard.removeObject(forKey: "rememberedUser")
+            }
+        }
     }
     
     @ViewBuilder
