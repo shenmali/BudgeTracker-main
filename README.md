@@ -58,15 +58,18 @@ Proje @main sınıfı olan TrackerApp.swift dosyasından firebase.configure() me
 
 ## Görseller
 
-![Simulator Screenshot - iPhone 14 Pro - 2023-07-08 at 18 17 20](https://github.com/shenmali/BudgeTracker-main/assets/77589328/dcc5381a-a378-4af7-b3e1-2fe400f3b370)
-![Simulator Screenshot - iPhone 14 Pro - 2023-07-08 at 18 17 05](https://github.com/shenmali/BudgeTracker-main/assets/77589328/b86cb870-9553-4e97-9632-ab1f99d5e7ba)
-![Simulator Screenshot - iPhone 14 Pro - 2023-07-08 at 18 16 56](https://github.com/shenmali/BudgeTracker-main/assets/77589328/222577f5-4a9b-4f7e-85f9-34729dcf9bb5)
-![Simulator Screenshot - iPhone 14 Pro - 2023-07-08 at 18 16 34](https://github.com/shenmali/BudgeTracker-main/assets/77589328/0da02f92-77c5-40d5-8116-6f83776fc456)
-![Simulator Screenshot - iPhone 14 Pro - 2023-07-08 at 18 16 07](https://github.com/shenmali/BudgeTracker-main/assets/77589328/db5210ea-a6ce-47d2-885d-d8568bdbdca8)
-![Simulator Screenshot - iPhone 14 Pro - 2023-07-08 at 18 16 11](https://github.com/shenmali/BudgeTracker-main/assets/77589328/39ccdb43-a5e2-4f72-8d9a-0371f921645d)
-![Simulator Screenshot - iPhone 14 Pro - 2023-07-08 at 18 16 17](https://github.com/shenmali/BudgeTracker-main/assets/77589328/ea76ad5c-e391-4018-9c3b-8ce7b5ebc0c8)
-![Simulator Screenshot - iPhone 14 Pro - 2023-07-08 at 18 16 21](https://github.com/shenmali/BudgeTracker-main/assets/77589328/598dceda-440d-4936-b1b1-56c343234a4f)
-![Simulator Screenshot - iPhone 14 Pro - 2023-07-08 at 18 16 26](https://github.com/shenmali/BudgeTracker-main/assets/77589328/3a3fbcd6-b73e-4eb4-a16d-fe5189b7a63b)
-![Simulator Screenshot - iPhone 14 Pro - 2023-07-08 at 18 15 50](https://github.com/shenmali/BudgeTracker-main/assets/77589328/1bdbac22-ff58-4467-a5f4-e72f984103eb)
+<img src="https://github.com/shenmali/BudgeTracker-main/assets/77589328/dcc5381a-a378-4af7-b3e1-2fe400f3b370" alt="alt yazı" width="320">
+<img src="https://github.com/shenmali/BudgeTracker-main/assets/77589328/1bdbac22-ff58-4467-a5f4-e72f984103eb" alt="alt yazı" width="320">
+<img src="https://github.com/shenmali/BudgeTracker-main/assets/77589328/222577f5-4a9b-4f7e-85f9-34729dcf9bb5" alt="alt yazı" width="320">
+<img src="https://github.com/shenmali/BudgeTracker-main/assets/77589328/db5210ea-a6ce-47d2-885d-d8568bdbdca8" alt="alt yazı" width="320">
+<img src="https://github.com/shenmali/BudgeTracker-main/assets/77589328/39ccdb43-a5e2-4f72-8d9a-0371f921645d" alt="alt yazı" width="320">
+<img src="https://github.com/shenmali/BudgeTracker-main/assets/77589328/ea76ad5c-e391-4018-9c3b-8ce7b5ebc0c8" alt="alt yazı" width="320">
+<img src="https://github.com/shenmali/BudgeTracker-main/assets/77589328/0da02f92-77c5-40d5-8116-6f83776fc456" alt="alt yazı" width="320">
+<img src="https://github.com/shenmali/BudgeTracker-main/assets/77589328/598dceda-440d-4936-b1b1-56c343234a4f" alt="alt yazı" width="320">
+<img src="https://github.com/shenmali/BudgeTracker-main/assets/77589328/3a3fbcd6-b73e-4eb4-a16d-fe5189b7a63b" alt="alt yazı" width="320">
+<img src="https://github.com/shenmali/BudgeTracker-main/assets/77589328/b86cb870-9553-4e97-9632-ab1f99d5e7ba" alt="alt yazı" width="320">
+
+
+
 
 
