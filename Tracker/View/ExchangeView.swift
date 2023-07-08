@@ -29,7 +29,7 @@ struct ExchangeView: View {
             .padding(.top, 12)
             .onAppear{
                 Task{
-                    await viewModel.getExchangeRates()
+                    await viewModel.fetchData()
                 }
             }
             .navigationTitle("Currency converter")

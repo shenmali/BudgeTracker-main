@@ -10,7 +10,9 @@ struct HomeScreenView: View {
         do {
             try firebaseAuth.signOut()
             userID = ""
-            isActive = true
+            DispatchQueue.main.async {
+                isActive = true
+            }
         } catch let signOutError as NSError {
             print("Error signing out")
         }

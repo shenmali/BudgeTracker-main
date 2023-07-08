@@ -93,7 +93,6 @@ extension RegistrationView {
             .padding([.horizontal], 24)
     }
     
-    @ViewBuilder
     func passwordField() -> some View {
         SecureField("Password", text: $viewModel.password)
             .frame(height: 55)

@@ -2,7 +2,6 @@
 //  LoginScreen.swift
 //  Tracker
 //
-//  Created by M.Ali SEN
 //
 
 import SwiftUI
@@ -12,28 +11,28 @@ import ModalView
 struct LoginView: View {
     @StateObject private var loginViewModel = AccountViewModel()
     @State private var showErrorAlert = false
+    @State private var rememberMe = false
 
     var body: some View {
         NavigationStack{
             ModalPresenter{
                 if loginViewModel.userID == "" {
                     content()
-                } else
-                {
+                } else {
                     ContentView()
                 }
             }
         }
         .alert(isPresented: $showErrorAlert) {
-                  Alert(
-                      title: Text("Error"),
-                      message: Text(loginViewModel.loginError ?? ""),
-                      dismissButton: .default(Text("OK"))
-                  )
-              }
-              .onChange(of: loginViewModel.loginError) { error in
-                  showErrorAlert = error != nil
-            }
+            Alert(
+                title: Text("Error"),
+                message: Text(loginViewModel.loginError ?? ""),
+                dismissButton: .default(Text("OK"))
+            )
+        }
+        .onChange(of: loginViewModel.loginError) { error in
+            showErrorAlert = error != nil
+        }
     }
 }
 
@@ -43,13 +42,14 @@ extension LoginView {
     func content() -> some View {
         ZStack {
             VStack(spacing: 10){
-                HStack{
-                        welcomeText()
+                HStack {
+                    welcomeText()
                 }
                 Spacer()
                 helpText()
                 emailInput()
                 passwordInput()
+                rememberMeToggle()
                 loginButton()
                 
                 ModalLink {dismiss in
@@ -103,6 +103,15 @@ extension LoginView {
     }
     
     @ViewBuilder
+    func rememberMeToggle() -> some View {
+        Toggle(isOn: $rememberMe) {
+            Text("Remember Me")
+        }
+        .toggleStyle(SwitchToggleStyle(tint: .blue))
+        .padding(.vertical, 5)
+    }
+    
+    @ViewBuilder
     func loginButton() -> some View {
         Button {
             loginViewModel.login()
@@ -113,4 +122,3 @@ extension LoginView {
         .padding(.vertical, 12)
     }
 }
-

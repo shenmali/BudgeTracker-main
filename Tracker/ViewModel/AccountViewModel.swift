@@ -14,6 +14,7 @@ class AccountViewModel: ObservableObject {
     @Published var email = ""
     @Published var password = ""
     @AppStorage("uid") var userID = ""
+    @AppStorage("rememberedUsername") var rememberedUsername = ""
     @Published var loginError: String?
     @Published var registrationError: String?
     @Published var successMessage: String?
@@ -24,11 +25,11 @@ class AccountViewModel: ObservableObject {
                 self.loginError = error?.localizedDescription ?? ""
             } else {
                 self.loginError = nil
-
             }
             if let result = result {
                 withAnimation {
                     self.userID = result.user.uid
+                    self.rememberedUsername = self.email // Kullanıcı adını hatırlanan kullanıcı adına atama
                 }
             }
         }

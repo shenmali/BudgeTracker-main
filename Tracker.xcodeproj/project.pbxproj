@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		41BACECA2A587894008ECEB4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 41BACEC92A587894008ECEB4 /* GoogleService-Info.plist */; };
+		41BACECC2A597437008ECEB4 /* MockExchangeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41BACECB2A597437008ECEB4 /* MockExchangeService.swift */; };
+		41BACECE2A5978C3008ECEB4 /* exchange_rates_mock.json in Resources */ = {isa = PBXBuildFile; fileRef = 41BACECD2A5978C3008ECEB4 /* exchange_rates_mock.json */; };
 		DF21DCDE2A05C35500043381 /* ExchangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF21DCDD2A05C35500043381 /* ExchangeView.swift */; };
 		DF21DCE02A05CA3200043381 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF21DCDF2A05CA3200043381 /* Currency.swift */; };
 		DF21DCE22A05CB2800043381 /* ExchangeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF21DCE12A05CB2800043381 /* ExchangeViewModel.swift */; };
@@ -43,6 +45,8 @@
 
 /* Begin PBXFileReference section */
 		41BACEC92A587894008ECEB4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		41BACECB2A597437008ECEB4 /* MockExchangeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockExchangeService.swift; sourceTree = "<group>"; };
+		41BACECD2A5978C3008ECEB4 /* exchange_rates_mock.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = exchange_rates_mock.json; path = Tracker/exchange_rates_mock.json; sourceTree = SOURCE_ROOT; };
 		DF21DCDD2A05C35500043381 /* ExchangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeView.swift; sourceTree = "<group>"; };
 		DF21DCDF2A05CA3200043381 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
 		DF21DCE12A05CB2800043381 /* ExchangeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeViewModel.swift; sourceTree = "<group>"; };
@@ -158,6 +162,7 @@
 				DFF0E11F29F0CE4700FFDC8D /* ViewModel */,
 				DFF0E11E29F0CE4400FFDC8D /* View */,
 				DFF0E10129F0C5E200FFDC8D /* TrackerApp.swift */,
+				41BACECD2A5978C3008ECEB4 /* exchange_rates_mock.json */,
 				DFF0E10529F0C5E500FFDC8D /* Assets.xcassets */,
 				41BACEC92A587894008ECEB4 /* GoogleService-Info.plist */,
 				DFF0E10729F0C5E500FFDC8D /* Preview Content */,
@@ -192,6 +197,7 @@
 			children = (
 				DFEA0FD829F16EB9000F042C /* AccountViewModel.swift */,
 				DF21DCE12A05CB2800043381 /* ExchangeViewModel.swift */,
+				41BACECB2A597437008ECEB4 /* MockExchangeService.swift */,
 				DFA7D49829FEB9D200A9D30C /* ExpenseViewModel.swift */,
 				DFC8B17F2A1639CA005E3A1D /* SavingsViewModel.swift */,
 			);
@@ -281,6 +287,7 @@
 			files = (
 				DFF0E10929F0C5E500FFDC8D /* Preview Assets.xcassets in Resources */,
 				41BACECA2A587894008ECEB4 /* GoogleService-Info.plist in Resources */,
+				41BACECE2A5978C3008ECEB4 /* exchange_rates_mock.json in Resources */,
 				DFF0E10629F0C5E500FFDC8D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,6 +312,7 @@
 				DF21DCE02A05CA3200043381 /* Currency.swift in Sources */,
 				DFF0E10429F0C5E200FFDC8D /* ContentView.swift in Sources */,
 				DFC8B17D2A163930005E3A1D /* SavingsView.swift in Sources */,
+				41BACECC2A597437008ECEB4 /* MockExchangeService.swift in Sources */,
 				DFC8B18B2A16D9DA005E3A1D /* DataState.swift in Sources */,
 				DFF0E10229F0C5E200FFDC8D /* TrackerApp.swift in Sources */,
 				DFEA0FE029F18119000F042C /* SettingsView.swift in Sources */,
